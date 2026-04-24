@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Genset Panel V8</title>
+  <style>
+    :root {
+      --bg: #050b14;
+      --bg-top: #0f172a;
+      --panel: rgba(15, 23, 42, 0.94);
+      --panel-edge: rgba(30, 41, 59, 1);
+      --grid: rgba(148, 163, 184, 0.09);
+      --stroke: #f1f5f9;
+      --stroke-soft: rgba(241, 245, 249, 0.58);
+      --accent: #34d399;
+      --accent-strong: #10b981;
+      --muted: #64748b;
+      --glow-1: 0 0 15px rgba(16, 185, 129, 0.8);
+      --glow-2: 0 0 30px rgba(16, 185, 129, 0.6);
+      --glow-3: 0 0 60px rgba(16, 185, 129, 0.4);
+      --glow-circle-1: 0 0 8px rgba(16, 185, 129, 0.5);
+      --glow-circle-2: 0 0 15px rgba(16, 185, 129, 0.3);
+      --glow-circle-3: 0 0 30px rgba(16, 185, 129, 0.15);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+      color: var(--stroke);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        linear-gradient(to right, transparent 0, transparent 19px, var(--grid) 20px),
+        linear-gradient(to bottom, transparent 0, transparent 19px, var(--grid) 20px),
+        radial-gradient(circle at 50% 0%, var(--bg-top) 0%, var(--bg) 72%);
+      background-size: 20px 20px, 20px 20px, auto;
+      background-attachment: fixed;
+    }
+
+    .gen-visual-stack {
+      --genset-stroke: #10b981;
+      --genset-stroke-w: 2px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: fit-content;
+    }
+
+    .gen-line-up {
+      width: var(--genset-stroke-w, 2px);
+      height: 5rem;
+      background-color: var(--genset-stroke, #10b981);
+      box-shadow: var(--glow-1), var(--glow-2), var(--glow-3);
+      flex-shrink: 0;
+    }
+
+    .gen-circle {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      background: radial-gradient(circle, rgba(16, 185, 129, 0.15) 0%, transparent 70%);
+      border: var(--genset-stroke-w, 2px) solid var(--genset-stroke, #10b981);
+      box-shadow: var(--glow-circle-1), var(--glow-circle-2), var(--glow-circle-3);
+      color: var(--genset-stroke, #10b981);
+    }
+
+    .schematic {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0;
+    }
+
+    .upper-chain-svg {
+      display: block;
+      width: 34px;
+      height: 168px;
+      overflow: visible;
+      flex: 0 0 auto;
+    }
+
+    .upper-chain-svg .chain-stroke {
+      stroke: var(--genset-stroke, #10b981);
+      stroke-width: 2;
+      stroke-linecap: square;
+      stroke-linejoin: round;
+      vector-effect: non-scaling-stroke;
+      filter: drop-shadow(var(--glow-1)) drop-shadow(var(--glow-2)) drop-shadow(var(--glow-3));
+    }
+
+    .upper-chain-svg .chain-fill {
+      fill: rgba(16, 185, 129, 0.02);
+      stroke: var(--genset-stroke, #10b981);
+      stroke-width: 2;
+      vector-effect: non-scaling-stroke;
+      filter: drop-shadow(var(--glow-1)) drop-shadow(var(--glow-2)) drop-shadow(var(--glow-3));
+    }
+
+    .upper-chain-svg .chain-label {
+      fill: var(--stroke);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 10.5px;
+      letter-spacing: 0.02em;
+      text-anchor: middle;
+      dominant-baseline: middle;
+    }
+
+    .gen-circle svg {
+      width: 40px;
+      height: 20px;
+      display: block;
+      filter: drop-shadow(var(--glow-circle-1)) drop-shadow(var(--glow-circle-2)) drop-shadow(var(--glow-circle-3));
+    }
+
+  </style>
+</head>
+<body>
+  <main class="panel" aria-label="Modern genset panel schematic">
+    <div class="schematic">
+      <svg class="upper-chain-svg" viewBox="0 0 34 168" aria-label="Breaker 52I, transformer, and breaker 52G" role="img">
+        <line class="chain-stroke" x1="17" y1="80" x2="17" y2="133" />
+        <rect class="chain-fill" x="1" y="135" width="32" height="32" rx="0" ry="0" />
+      </svg>
+
+      <div class="gen-visual-stack" aria-label="Generator symbol" role="img">
+        <div class="gen-line-up" aria-hidden="true"></div>
+        <div class="gen-circle">
+          <span class="relative z-10 flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 20" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M 4 10 Q 12 -2 20 10 T 36 10"></path>
+            </svg>
+          </span>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
