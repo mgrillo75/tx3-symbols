@@ -1,0 +1,8 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"name": "Perspective Faceplate Library",
+	"ignition-version": "8.1.10",
+	"version": "1.0.0",
+	"modules": []
+
+}

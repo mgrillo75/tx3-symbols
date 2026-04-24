@@ -1,0 +1,1135 @@
+{
+  "tags": [
+    {
+      "name": "Pump",
+      "tagType": "UdtType",
+      "tags": [
+        {
+          "name": "General",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "historyMaxAge": 1,
+              "dataType": "String",
+              "historyMaxAgeUnits": "MIN",
+              "historicalDeadbandStyle": "Discrete",
+              "name": "Asset Name",
+              "historyEnabled": true,
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "historyMaxAge": 1,
+              "dataType": "String",
+              "historyMaxAgeUnits": "MIN",
+              "historicalDeadbandStyle": "Discrete",
+              "name": "Common Name",
+              "historyEnabled": true,
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            }
+          ]
+        },
+        {
+          "name": "Maintenance",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "historyMaxAge": 1,
+              "dataType": "Float4",
+              "historyProvider": "Historian",
+              "historyMaxAgeUnits": "MIN",
+              "historicalDeadbandStyle": "Discrete",
+              "name": "RuntimeHoursToday",
+              "historyEnabled": true,
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "historyMaxAge": 1,
+              "dataType": "Float4",
+              "historyProvider": "Historian",
+              "historyMaxAgeUnits": "MIN",
+              "historicalDeadbandStyle": "Discrete",
+              "name": "RuntimeHours",
+              "historyEnabled": true,
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "historyMaxAge": 1,
+              "dataType": "Float4",
+              "historyProvider": "Historian",
+              "historyMaxAgeUnits": "MIN",
+              "historicalDeadbandStyle": "Discrete",
+              "name": "RuntimeHoursLastMonth",
+              "historyEnabled": true,
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "historyMaxAge": 1,
+              "dataType": "Float4",
+              "historyProvider": "Historian",
+              "historyMaxAgeUnits": "MIN",
+              "historicalDeadbandStyle": "Discrete",
+              "name": "RuntimeHoursYesterday",
+              "historyEnabled": true,
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "historyMaxAge": 1,
+              "dataType": "Float4",
+              "historyProvider": "Historian",
+              "historyMaxAgeUnits": "MIN",
+              "historicalDeadbandStyle": "Discrete",
+              "name": "RuntimeHoursThisMonth",
+              "historyEnabled": true,
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            }
+          ]
+        },
+        {
+          "name": "Alarming",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "historyMaxAge": 1,
+              "dataType": "Boolean",
+              "historyProvider": "Historian",
+              "historyMaxAgeUnits": "MIN",
+              "alarms": [
+                {
+                  "setpointA": 1.0,
+                  "name": "Alarm",
+                  "label": "Failed to Run",
+                  "displayPath": {
+                    "bindType": "Expression",
+                    "value": "{instanceName} + \u0027 Failed to Run\u0027"
+                  }
+                }
+              ],
+              "historicalDeadbandStyle": "Discrete",
+              "name": "Run Fail",
+              "historyEnabled": true,
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "historyMaxAge": 1,
+              "alarms": [
+                {
+                  "setpointA": 1.0,
+                  "name": "Pump Fail Active"
+                }
+              ],
+              "historicalDeadbandStyle": "Discrete",
+              "tagType": "AtomicTag",
+              "dataType": "Boolean",
+              "historyProvider": "Historian",
+              "historyMaxAgeUnits": "MIN",
+              "name": "Hose Break",
+              "historyEnabled": true,
+              "value": false,
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "historyMaxAge": 1,
+              "dataType": "Boolean",
+              "historyProvider": "Historian",
+              "historyMaxAgeUnits": "MIN",
+              "alarms": [
+                {
+                  "setpointA": 1.0,
+                  "name": "Pump Fail Active"
+                }
+              ],
+              "historicalDeadbandStyle": "Discrete",
+              "name": "Fail",
+              "historyEnabled": true,
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "historyMaxAge": 1,
+              "alarms": [
+                {
+                  "setpointA": 1.0,
+                  "name": "Pump Fail Active"
+                }
+              ],
+              "historicalDeadbandStyle": "Discrete",
+              "tagType": "AtomicTag",
+              "dataType": "Boolean",
+              "historyProvider": "Historian",
+              "historyMaxAgeUnits": "MIN",
+              "name": "E Stop",
+              "historyEnabled": true,
+              "value": false,
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "historyMaxAge": 1,
+              "alarms": [
+                {
+                  "setpointA": 1.0,
+                  "name": "No Flow"
+                }
+              ],
+              "historicalDeadbandStyle": "Discrete",
+              "tagType": "AtomicTag",
+              "dataType": "Boolean",
+              "historyProvider": "Historian",
+              "historyMaxAgeUnits": "MIN",
+              "name": "No Flow",
+              "historyEnabled": true,
+              "value": false,
+              "opcServer": "Ignition OPC UA Server"
+            }
+          ]
+        },
+        {
+          "name": "Control",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Device Status",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+                  },
+                  "valueSource": "opc",
+                  "historyMaxAge": 1,
+                  "dataType": "Boolean",
+                  "historyProvider": "Historian",
+                  "historyMaxAgeUnits": "MIN",
+                  "historicalDeadbandStyle": "Discrete",
+                  "name": "Remote",
+                  "historyEnabled": true,
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+                  },
+                  "valueSource": "opc",
+                  "historyMaxAge": 1,
+                  "dataType": "Boolean",
+                  "historyProvider": "Historian",
+                  "historyMaxAgeUnits": "MIN",
+                  "historicalDeadbandStyle": "Discrete",
+                  "name": "OOS",
+                  "historyEnabled": true,
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+                  },
+                  "valueSource": "opc",
+                  "historyMaxAge": 1,
+                  "dataType": "Boolean",
+                  "historyProvider": "Historian",
+                  "historyMaxAgeUnits": "MIN",
+                  "historicalDeadbandStyle": "Discrete",
+                  "name": "Auto",
+                  "historyEnabled": true,
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+                  },
+                  "valueSource": "opc",
+                  "historyMaxAge": 1,
+                  "dataType": "Boolean",
+                  "historyProvider": "Historian",
+                  "historyMaxAgeUnits": "MIN",
+                  "historicalDeadbandStyle": "Discrete",
+                  "name": "Running",
+                  "historyEnabled": true,
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+                  },
+                  "valueSource": "opc",
+                  "historyMaxAge": 1,
+                  "dataType": "Float4",
+                  "historyProvider": "Historian",
+                  "historyMaxAgeUnits": "MIN",
+                  "historicalDeadbandStyle": "Discrete",
+                  "name": "AutoSP",
+                  "historyEnabled": true,
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+                  },
+                  "valueSource": "opc",
+                  "historyMaxAge": 1,
+                  "dataType": "Float4",
+                  "historyProvider": "Historian",
+                  "historyMaxAgeUnits": "MIN",
+                  "historicalDeadbandStyle": "Discrete",
+                  "name": "Speed Feedback",
+                  "historyEnabled": true,
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                }
+              ]
+            },
+            {
+              "name": "Device Control",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+                  },
+                  "valueSource": "opc",
+                  "historyMaxAge": 1,
+                  "dataType": "Boolean",
+                  "historyProvider": "Historian",
+                  "historyMaxAgeUnits": "MIN",
+                  "historicalDeadbandStyle": "Discrete",
+                  "name": "CmdAuto",
+                  "historyEnabled": true,
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+                  },
+                  "valueSource": "opc",
+                  "historyMaxAge": 1,
+                  "dataType": "Float4",
+                  "historyProvider": "Historian",
+                  "historyMaxAgeUnits": "MIN",
+                  "historicalDeadbandStyle": "Discrete",
+                  "name": "ManSP",
+                  "historyEnabled": true,
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+                  },
+                  "valueSource": "opc",
+                  "historyMaxAge": 1,
+                  "dataType": "Boolean",
+                  "historyProvider": "Historian",
+                  "historyMaxAgeUnits": "MIN",
+                  "historicalDeadbandStyle": "Discrete",
+                  "name": "CmdMan",
+                  "historyEnabled": true,
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+                  },
+                  "valueSource": "opc",
+                  "historyMaxAge": 1,
+                  "dataType": "Boolean",
+                  "historyProvider": "Historian",
+                  "historyMaxAgeUnits": "MIN",
+                  "historicalDeadbandStyle": "Discrete",
+                  "name": "CmdStart",
+                  "historyEnabled": true,
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+                  },
+                  "valueSource": "opc",
+                  "historyMaxAge": 1,
+                  "dataType": "Boolean",
+                  "historyProvider": "Historian",
+                  "historyMaxAgeUnits": "MIN",
+                  "historicalDeadbandStyle": "Discrete",
+                  "name": "CmdStop",
+                  "historyEnabled": true,
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+                  },
+                  "valueSource": "opc",
+                  "historyMaxAge": 1,
+                  "dataType": "Boolean",
+                  "historyProvider": "Historian",
+                  "historyMaxAgeUnits": "MIN",
+                  "historicalDeadbandStyle": "Discrete",
+                  "name": "CmdOOS",
+                  "historyEnabled": true,
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+                  },
+                  "valueSource": "opc",
+                  "historyMaxAge": 1,
+                  "dataType": "Boolean",
+                  "historyProvider": "Historian",
+                  "historyMaxAgeUnits": "MIN",
+                  "historicalDeadbandStyle": "Discrete",
+                  "name": "CmdINS",
+                  "historyEnabled": true,
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Engineering",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "historyMaxAge": 1,
+              "historyProvider": "Historian",
+              "historyMaxAgeUnits": "MIN",
+              "historicalDeadbandStyle": "Discrete",
+              "name": "FailStopPreset",
+              "historyEnabled": true,
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "historyMaxAge": 1,
+              "historyProvider": "Historian",
+              "dataType": "Float4",
+              "historyMaxAgeUnits": "MIN",
+              "historicalDeadbandStyle": "Discrete",
+              "name": "FeedbackRawMin",
+              "historyEnabled": true,
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "historyMaxAge": 1,
+              "historyProvider": "Historian",
+              "dataType": "Float4",
+              "historyMaxAgeUnits": "MIN",
+              "historicalDeadbandStyle": "Discrete",
+              "name": "FeedbackEUMin",
+              "historyEnabled": true,
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "historyMaxAge": 1,
+              "historyProvider": "Historian",
+              "historyMaxAgeUnits": "MIN",
+              "historicalDeadbandStyle": "Discrete",
+              "name": "FailRunPreset",
+              "historyEnabled": true,
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "historyMaxAge": 1,
+              "historyProvider": "Historian",
+              "historyMaxAgeUnits": "MIN",
+              "historicalDeadbandStyle": "Discrete",
+              "name": "FailStartPreset",
+              "historyEnabled": true,
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "historyMaxAge": 1,
+              "historyProvider": "Historian",
+              "dataType": "Float4",
+              "historyMaxAgeUnits": "MIN",
+              "historicalDeadbandStyle": "Discrete",
+              "name": "FeedbackRawMax",
+              "historyEnabled": true,
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "historyMaxAge": 1,
+              "historyProvider": "Historian",
+              "dataType": "Float4",
+              "historyMaxAgeUnits": "MIN",
+              "historicalDeadbandStyle": "Discrete",
+              "name": "FeedbackEUMax",
+              "historyEnabled": true,
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tank",
+      "tagType": "UdtType",
+      "tags": [
+        {
+          "name": "Alarming",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "sourceTagPath": {
+                "bindType": "parameter",
+                "binding": "{rootPath}/Alarming/High High Level"
+              },
+              "valueSource": "opc",
+              "historyMaxAge": 5,
+              "dataType": "Boolean",
+              "historyProvider": "Historian",
+              "historyMaxAgeUnits": "MIN",
+              "historicalDeadbandStyle": "Discrete",
+              "name": "High High Level",
+              "historyEnabled": true,
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "historyMaxAge": 5,
+              "dataType": "Boolean",
+              "historyProvider": "Historian",
+              "historyMaxAgeUnits": "MIN",
+              "alarms": [
+                {
+                  "setpointA": 1.0,
+                  "name": "Alarm",
+                  "label": "Low Low Level Alarm",
+                  "displayPath": {
+                    "bindType": "Expression",
+                    "value": "{instanceName} + \u0027 Low Low Level\u0027"
+                  }
+                }
+              ],
+              "historicalDeadbandStyle": "Discrete",
+              "name": "Low Low Level",
+              "historyEnabled": true,
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "historyMaxAge": 5,
+              "dataType": "Boolean",
+              "historyProvider": "Historian",
+              "historyMaxAgeUnits": "MIN",
+              "alarms": [
+                {
+                  "setpointA": 1.0,
+                  "name": "Alarm",
+                  "label": "High Alarm",
+                  "displayPath": {
+                    "bindType": "Expression",
+                    "value": "{instanceName} + \u0027 High Level\u0027"
+                  }
+                }
+              ],
+              "historicalDeadbandStyle": "Discrete",
+              "name": "High Level",
+              "historyEnabled": true,
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "historyMaxAge": 5,
+              "dataType": "Boolean",
+              "historyProvider": "Historian",
+              "historyMaxAgeUnits": "MIN",
+              "historicalDeadbandStyle": "Discrete",
+              "name": "High High Setpoint",
+              "historyEnabled": true,
+              "alarmEvalEnabled": false,
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "historyMaxAge": 5,
+              "dataType": "Boolean",
+              "historyProvider": "Historian",
+              "historyMaxAgeUnits": "MIN",
+              "alarms": [
+                {
+                  "setpointA": 1.0,
+                  "name": "Alarm",
+                  "label": "Low Level Alarm",
+                  "displayPath": {
+                    "bindType": "Expression",
+                    "value": "{instanceName} + \u0027 Low Level\u0027"
+                  }
+                }
+              ],
+              "historicalDeadbandStyle": "Discrete",
+              "name": "Low Level",
+              "historyEnabled": true,
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "historyMaxAge": 5,
+              "dataType": "Boolean",
+              "historyProvider": "Historian",
+              "historyMaxAgeUnits": "MIN",
+              "historicalDeadbandStyle": "Discrete",
+              "name": "Low Low Setpoint",
+              "historyEnabled": true,
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "historyMaxAge": 5,
+              "dataType": "Boolean",
+              "historyProvider": "Historian",
+              "historyMaxAgeUnits": "MIN",
+              "historicalDeadbandStyle": "Discrete",
+              "name": "Low Setpoint",
+              "historyEnabled": true,
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "historyMaxAge": 5,
+              "dataType": "Boolean",
+              "historyProvider": "Historian",
+              "historyMaxAgeUnits": "MIN",
+              "historicalDeadbandStyle": "Discrete",
+              "name": "High Setpoint",
+              "historyEnabled": true,
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            }
+          ]
+        },
+        {
+          "name": "Control",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Device Status",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+                  },
+                  "valueSource": "opc",
+                  "historyMaxAge": 5,
+                  "historicalDeadbandStyle": "Discrete",
+                  "formatString": "#,##0",
+                  "engUnit": "%",
+                  "tagType": "AtomicTag",
+                  "dataType": "Float8",
+                  "historyProvider": "Historian",
+                  "historyMaxAgeUnits": "MIN",
+                  "name": "Level",
+                  "historyEnabled": true,
+                  "opcServer": "Ignition OPC UA Server"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "valueSource": "memory",
+              "dataType": "String",
+              "historyProvider": "Historian",
+              "name": "Asset Name",
+              "historyEnabled": true,
+              "tagType": "AtomicTag"
+            },
+            {
+              "valueSource": "memory",
+              "dataType": "String",
+              "name": "Type",
+              "value": "Tank",
+              "tagType": "AtomicTag"
+            },
+            {
+              "valueSource": "memory",
+              "dataType": "String",
+              "historyProvider": "Historian",
+              "name": "Common Name",
+              "historyEnabled": true,
+              "tagType": "AtomicTag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Valve",
+      "tagType": "UdtType",
+      "tags": [
+        {
+          "name": "Control",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Device Status",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+                  },
+                  "valueSource": "opc",
+                  "historyMaxAge": 1,
+                  "dataType": "Float4",
+                  "historicalDeadbandStyle": "Discrete",
+                  "name": "Position Feedback",
+                  "historyEnabled": true,
+                  "tagType": "AtomicTag",
+                  "engUnit": "%",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+                  },
+                  "valueSource": "opc",
+                  "historyMaxAge": 1,
+                  "dataType": "Boolean",
+                  "historicalDeadbandStyle": "Discrete",
+                  "name": "CloseStatus",
+                  "historyEnabled": true,
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+                  },
+                  "valueSource": "opc",
+                  "historyMaxAge": 1,
+                  "dataType": "Boolean",
+                  "historicalDeadbandStyle": "Discrete",
+                  "name": "OOS",
+                  "historyEnabled": true,
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+                  },
+                  "valueSource": "opc",
+                  "historyMaxAge": 1,
+                  "dataType": "Boolean",
+                  "historicalDeadbandStyle": "Discrete",
+                  "name": "Remote",
+                  "historyEnabled": true,
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+                  },
+                  "valueSource": "opc",
+                  "historyMaxAge": 1,
+                  "dataType": "Boolean",
+                  "historicalDeadbandStyle": "Discrete",
+                  "name": "OpenStatus",
+                  "historyEnabled": true,
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+                  },
+                  "valueSource": "opc",
+                  "historyMaxAge": 1,
+                  "dataType": "Boolean",
+                  "historicalDeadbandStyle": "Discrete",
+                  "name": "Auto",
+                  "historyEnabled": true,
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                }
+              ]
+            },
+            {
+              "name": "Device Control",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+                  },
+                  "valueSource": "opc",
+                  "historyMaxAge": 1,
+                  "dataType": "Boolean",
+                  "historicalDeadbandStyle": "Discrete",
+                  "name": "CmdOOS",
+                  "historyEnabled": true,
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+                  },
+                  "valueSource": "opc",
+                  "historyMaxAge": 1,
+                  "dataType": "Boolean",
+                  "historicalDeadbandStyle": "Discrete",
+                  "name": "CmdMan",
+                  "historyEnabled": true,
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+                  },
+                  "valueSource": "opc",
+                  "historyMaxAge": 1,
+                  "dataType": "Float4",
+                  "historicalDeadbandStyle": "Discrete",
+                  "name": "ManSP",
+                  "historyEnabled": true,
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+                  },
+                  "valueSource": "opc",
+                  "historyMaxAge": 1,
+                  "dataType": "Boolean",
+                  "historicalDeadbandStyle": "Discrete",
+                  "name": "CmdAuto",
+                  "historyEnabled": true,
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                },
+                {
+                  "opcItemPath": {
+                    "bindType": "parameter",
+                    "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+                  },
+                  "valueSource": "opc",
+                  "historyMaxAge": 1,
+                  "dataType": "Boolean",
+                  "historicalDeadbandStyle": "Discrete",
+                  "name": "CmdINS",
+                  "historyEnabled": true,
+                  "tagType": "AtomicTag",
+                  "opcServer": "Ignition OPC UA Server"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Maintenance",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "historyMaxAge": 1,
+              "dataType": "Int4",
+              "historicalDeadbandStyle": "Discrete",
+              "name": "Total Cycles",
+              "historyEnabled": true,
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "historyMaxAge": 1,
+              "dataType": "Int4",
+              "historicalDeadbandStyle": "Discrete",
+              "name": "Cycles Yesterday",
+              "historyEnabled": true,
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "historyMaxAge": 1,
+              "dataType": "Int4",
+              "historicalDeadbandStyle": "Discrete",
+              "name": "Cycles Today",
+              "historyEnabled": true,
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "historyMaxAge": 1,
+              "dataType": "Int4",
+              "historicalDeadbandStyle": "Discrete",
+              "name": "Cycles Last Week",
+              "historyEnabled": true,
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "historyMaxAge": 1,
+              "dataType": "String",
+              "historicalDeadbandStyle": "Discrete",
+              "name": "Asset Name",
+              "historyEnabled": false,
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "historyMaxAge": 1,
+              "dataType": "String",
+              "historicalDeadbandStyle": "Discrete",
+              "name": "Common Name",
+              "historyEnabled": false,
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            }
+          ]
+        },
+        {
+          "name": "Alarming",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "historyMaxAge": 1,
+              "dataType": "Boolean",
+              "historicalDeadbandStyle": "Discrete",
+              "alarms": [
+                {
+                  "setpointA": 1.0,
+                  "name": "Power Failure Alarm",
+                  "label": {
+                    "bindType": "Expression",
+                    "value": "{InstanceName}+\u0027 Power Failure\u0027"
+                  }
+                }
+              ],
+              "name": "Power Failure",
+              "historyEnabled": true,
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "historyMaxAge": 1,
+              "dataType": "Boolean",
+              "historicalDeadbandStyle": "Discrete",
+              "alarms": [
+                {
+                  "setpointA": 1.0,
+                  "name": "Fail Alarm",
+                  "label": {
+                    "bindType": "Expression",
+                    "value": "{InstanceName}+\u0027 Fail Alarm\u0027"
+                  }
+                }
+              ],
+              "name": "Fail",
+              "historyEnabled": true,
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

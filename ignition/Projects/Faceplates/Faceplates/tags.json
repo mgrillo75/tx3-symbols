@@ -1,0 +1,4175 @@
+{
+  "tags": [
+    {
+      "name": "Pump 1",
+      "typeId": "Pump",
+      "tagType": "UdtInstance",
+      "tags": [
+        {
+          "name": "Maintenance",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "RuntimeHoursLastMonth",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHoursToday",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHours",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHoursThisMonth",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHoursYesterday",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Alarming",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "E Stop",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Fail",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "No Flow",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Run Fail",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Hose Break",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Engineering",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "FeedbackRawMax",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FeedbackEUMin",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FailRunPreset",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FeedbackEUMax",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FailStartPreset",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FeedbackRawMin",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FailStopPreset",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Control",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Device Control",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "CmdINS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdStart",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "ManSP",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdOOS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdAuto",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdMan",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdStop",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "Device Status",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "Running",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Speed Feedback",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Remote",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Auto",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "AutoSP",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "OOS",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Common Name",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Asset Name",
+              "tagType": "AtomicTag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pump 2",
+      "typeId": "Pump",
+      "tagType": "UdtInstance",
+      "tags": [
+        {
+          "name": "Alarming",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "E Stop",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "No Flow",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Fail",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Hose Break",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Run Fail",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Maintenance",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "RuntimeHoursToday",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHoursLastMonth",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHours",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHoursThisMonth",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHoursYesterday",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Engineering",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "FeedbackRawMax",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FailRunPreset",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FeedbackEUMin",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FailStartPreset",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FeedbackEUMax",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FeedbackRawMin",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FailStopPreset",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Control",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Device Control",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "CmdStart",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdMan",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "ManSP",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdOOS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdAuto",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdStop",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdINS",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "Device Status",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "Running",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Speed Feedback",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Remote",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "OOS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "AutoSP",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Auto",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Common Name",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Asset Name",
+              "tagType": "AtomicTag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pump 3",
+      "typeId": "Pump",
+      "tagType": "UdtInstance",
+      "tags": [
+        {
+          "name": "Control",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Device Status",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "Remote",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Auto",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "AutoSP",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Running",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Speed Feedback",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "OOS",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "Device Control",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "ManSP",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdOOS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdMan",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdINS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdStart",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdStop",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdAuto",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Engineering",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "FailStartPreset",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FeedbackRawMax",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FeedbackEUMin",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FeedbackEUMax",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FailRunPreset",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FeedbackRawMin",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FailStopPreset",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Maintenance",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "RuntimeHoursToday",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHoursThisMonth",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHoursLastMonth",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHours",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHoursYesterday",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Asset Name",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Common Name",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Alarming",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "No Flow",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Fail",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Hose Break",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Run Fail",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "E Stop",
+              "tagType": "AtomicTag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pump 4",
+      "typeId": "Pump",
+      "tagType": "UdtInstance",
+      "tags": [
+        {
+          "name": "Control",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Device Control",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "CmdStop",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdOOS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdMan",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdStart",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdAuto",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdINS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "ManSP",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "Device Status",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "AutoSP",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "OOS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Remote",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Auto",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Running",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Speed Feedback",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Alarming",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Run Fail",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "E Stop",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Hose Break",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Fail",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "No Flow",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Asset Name",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Common Name",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Maintenance",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "RuntimeHoursYesterday",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHours",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHoursLastMonth",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHoursToday",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHoursThisMonth",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Engineering",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "FeedbackRawMax",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FeedbackRawMin",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FailStopPreset",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FailRunPreset",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FeedbackEUMin",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FailStartPreset",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FeedbackEUMax",
+              "tagType": "AtomicTag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pump 5",
+      "typeId": "Pump",
+      "tagType": "UdtInstance",
+      "tags": [
+        {
+          "name": "Engineering",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "FeedbackEUMax",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FeedbackRawMax",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FeedbackRawMin",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FeedbackEUMin",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FailStartPreset",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FailRunPreset",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FailStopPreset",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Control",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Device Status",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "Remote",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Auto",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "OOS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Running",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Speed Feedback",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "AutoSP",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "Device Control",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "ManSP",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdOOS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdStop",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdAuto",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdStart",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdMan",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdINS",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Maintenance",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "RuntimeHoursYesterday",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHoursLastMonth",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHours",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHoursThisMonth",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHoursToday",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Alarming",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Fail",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Hose Break",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "No Flow",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "E Stop",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Run Fail",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Asset Name",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Common Name",
+              "tagType": "AtomicTag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pump 6",
+      "typeId": "Pump",
+      "tagType": "UdtInstance",
+      "tags": [
+        {
+          "name": "Alarming",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "E Stop",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Fail",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "No Flow",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Run Fail",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Hose Break",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Control",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Device Control",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "CmdINS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "ManSP",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdAuto",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdOOS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdStop",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdMan",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdStart",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "Device Status",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "AutoSP",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Auto",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Running",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Speed Feedback",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Remote",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "OOS",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Engineering",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "FailRunPreset",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FeedbackEUMin",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FeedbackEUMax",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FailStartPreset",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FailStopPreset",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FeedbackRawMax",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FeedbackRawMin",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Common Name",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Asset Name",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Maintenance",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "RuntimeHours",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHoursThisMonth",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHoursToday",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHoursLastMonth",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHoursYesterday",
+              "tagType": "AtomicTag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pump 7",
+      "typeId": "Pump",
+      "tagType": "UdtInstance",
+      "tags": [
+        {
+          "name": "Engineering",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "FeedbackRawMax",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FeedbackEUMax",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FailStopPreset",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FeedbackRawMin",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FailRunPreset",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FeedbackEUMin",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FailStartPreset",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Control",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Device Status",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "OOS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Speed Feedback",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Running",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Auto",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "AutoSP",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Remote",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "Device Control",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "CmdStop",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdOOS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdINS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "ManSP",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdAuto",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdMan",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdStart",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Asset Name",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Common Name",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Alarming",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Run Fail",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Hose Break",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Fail",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "E Stop",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "No Flow",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Maintenance",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "RuntimeHoursYesterday",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHoursThisMonth",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHoursToday",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHours",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHoursLastMonth",
+              "tagType": "AtomicTag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pump 8",
+      "typeId": "Pump",
+      "tagType": "UdtInstance",
+      "tags": [
+        {
+          "name": "Maintenance",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "RuntimeHours",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHoursLastMonth",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHoursToday",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHoursThisMonth",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHoursYesterday",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Alarming",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "E Stop",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Run Fail",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Fail",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Hose Break",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "No Flow",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Asset Name",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Common Name",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Control",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Device Control",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "CmdINS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdOOS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdMan",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "ManSP",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdAuto",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdStop",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdStart",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "Device Status",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "Running",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Speed Feedback",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "AutoSP",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "OOS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Remote",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Auto",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Engineering",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "FailRunPreset",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FailStopPreset",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FeedbackEUMax",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FeedbackEUMin",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FeedbackRawMin",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FailStartPreset",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FeedbackRawMax",
+              "tagType": "AtomicTag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pump 9",
+      "typeId": "Pump",
+      "tagType": "UdtInstance",
+      "tags": [
+        {
+          "name": "Control",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Device Control",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "ManSP",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdOOS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdStop",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdAuto",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdINS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdStart",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdMan",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "Device Status",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "Remote",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Auto",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "AutoSP",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Speed Feedback",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Running",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "OOS",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Engineering",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "FeedbackEUMax",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FailStartPreset",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FeedbackEUMin",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FailRunPreset",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FailStopPreset",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FeedbackRawMin",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FeedbackRawMax",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Asset Name",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Common Name",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Alarming",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "No Flow",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Run Fail",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Fail",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "E Stop",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Hose Break",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Maintenance",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "RuntimeHoursToday",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHoursThisMonth",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHours",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHoursYesterday",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHoursLastMonth",
+              "tagType": "AtomicTag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pump 10",
+      "typeId": "Pump",
+      "tagType": "UdtInstance",
+      "tags": [
+        {
+          "name": "General",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Common Name",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Asset Name",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Maintenance",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "RuntimeHours",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHoursLastMonth",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHoursThisMonth",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHoursToday",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "RuntimeHoursYesterday",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Control",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Device Control",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "CmdINS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "ManSP",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdStop",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdOOS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdMan",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdAuto",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdStart",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "Device Status",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "Speed Feedback",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Running",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "AutoSP",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Remote",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Auto",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "OOS",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Engineering",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "FailStopPreset",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FailRunPreset",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FeedbackEUMin",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FailStartPreset",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FeedbackEUMax",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FeedbackRawMax",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "FeedbackRawMin",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Alarming",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Run Fail",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Hose Break",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Fail",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "No Flow",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "E Stop",
+              "tagType": "AtomicTag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tank 1",
+      "typeId": "Tank",
+      "tagType": "UdtInstance",
+      "tags": [
+        {
+          "name": "Control",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Device Status",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "Level",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Alarming",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "High Level",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Low Level",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Level",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "High High Setpoint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "High High Level",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Setpoint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "High Setpoint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Low Setpoint",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Type",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "name": "Common Name",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "name": "Asset Name",
+              "tagType": "AtomicTag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tank 2",
+      "typeId": "Tank",
+      "parameters": {
+        "rootPath": {
+          "dataType": "Integer"
+        }
+      },
+      "tagType": "UdtInstance",
+      "tags": [
+        {
+          "name": "Control",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Device Status",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "Level",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Alarming",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Low Setpoint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Level",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Setpoint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "High Setpoint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "High High Level",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "High High Setpoint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "High Level",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Low Level",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "name": "Asset Name",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "name": "Common Name",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Type",
+              "tagType": "AtomicTag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tank 3",
+      "typeId": "Tank",
+      "parameters": {
+        "rootPath": {
+          "dataType": "Integer"
+        }
+      },
+      "tagType": "UdtInstance",
+      "tags": [
+        {
+          "name": "Alarming",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Low Setpoint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "High Level",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Low Level",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "High Setpoint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "High High Setpoint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "High High Level",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Setpoint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Level",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "name": "Asset Name",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "name": "Common Name",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Type",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Control",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Device Status",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "Level",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tank 4",
+      "typeId": "Tank",
+      "parameters": {
+        "rootPath": {
+          "dataType": "Integer"
+        }
+      },
+      "tagType": "UdtInstance",
+      "tags": [
+        {
+          "name": "Control",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Device Status",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "Level",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Alarming",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "High Setpoint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Low Setpoint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Setpoint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Level",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "High High Level",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Low Level",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "High Level",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "High High Setpoint",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Type",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "name": "Common Name",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "name": "Asset Name",
+              "tagType": "AtomicTag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tank 5",
+      "typeId": "Tank",
+      "parameters": {
+        "rootPath": {
+          "dataType": "Integer"
+        }
+      },
+      "tagType": "UdtInstance",
+      "tags": [
+        {
+          "name": "General",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "name": "Common Name",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Type",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "name": "Asset Name",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Alarming",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Setpoint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "High High Level",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "High Setpoint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Level",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Low Setpoint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "High High Setpoint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "High Level",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Low Level",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Control",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Device Status",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "Level",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tank 6",
+      "typeId": "Tank",
+      "tagType": "UdtInstance",
+      "tags": [
+        {
+          "name": "Control",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Device Status",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "Level",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "name": "Asset Name",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Type",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "name": "Common Name",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Alarming",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Low Setpoint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Level",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "High Level",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Low Level",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Setpoint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "High High Level",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "High Setpoint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "High High Setpoint",
+              "tagType": "AtomicTag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tank 7",
+      "typeId": "Tank",
+      "tagType": "UdtInstance",
+      "tags": [
+        {
+          "name": "General",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "name": "Asset Name",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Type",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "name": "Common Name",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Control",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Device Status",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "Level",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Alarming",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Low Setpoint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "High Level",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Low Level",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Level",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "High Setpoint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "High High Level",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Setpoint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "High High Setpoint",
+              "tagType": "AtomicTag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tank 8",
+      "typeId": "Tank",
+      "tagType": "UdtInstance",
+      "tags": [
+        {
+          "name": "Control",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Device Status",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "Level",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Alarming",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "High Setpoint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Low Setpoint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Setpoint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Level",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "High High Level",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Low Level",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "High Level",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "High High Setpoint",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Type",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "name": "Common Name",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "name": "Asset Name",
+              "tagType": "AtomicTag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tank 9",
+      "typeId": "Tank",
+      "tagType": "UdtInstance",
+      "tags": [
+        {
+          "name": "Control",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Device Status",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "Level",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Type",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "name": "Common Name",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "name": "Asset Name",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Alarming",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "High Setpoint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "High High Setpoint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Level",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Setpoint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "High High Level",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Low Setpoint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "High Level",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Low Level",
+              "tagType": "AtomicTag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tank 10",
+      "typeId": "Tank",
+      "tagType": "UdtInstance",
+      "tags": [
+        {
+          "name": "Control",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Device Status",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "Level",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Alarming",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "High High Level",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Setpoint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "High Setpoint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Level",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "High High Setpoint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Low Setpoint",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "High Level",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "name": "Low Low Level",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "name": "Common Name",
+              "tagType": "AtomicTag"
+            },
+            {
+              "value": "Mixer",
+              "name": "Type",
+              "tagType": "AtomicTag"
+            },
+            {
+              "opcItemPath": {
+                "bindType": "parameter",
+                "binding": "ns\u003d1;s\u003d[Perspective Library Simulator]{PathToTag}"
+              },
+              "valueSource": "opc",
+              "opcServer": "Ignition OPC UA Server",
+              "name": "Asset Name",
+              "tagType": "AtomicTag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Valve 1",
+      "typeId": "Valve",
+      "tagType": "UdtInstance",
+      "tags": [
+        {
+          "name": "Control",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Device Status",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "Auto",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Remote",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Position Feedback",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CloseStatus",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "OpenStatus",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "OOS",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "Device Control",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "CmdOOS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdINS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdAuto",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "ManSP",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdMan",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Maintenance",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Cycles Last Week",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cycles Yesterday",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cycles Today",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Total Cycles",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Asset Name",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Common Name",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Alarming",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Power Failure",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Fail",
+              "tagType": "AtomicTag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Valve 2",
+      "typeId": "Valve",
+      "tagType": "UdtInstance",
+      "tags": [
+        {
+          "name": "Maintenance",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Cycles Today",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cycles Yesterday",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Total Cycles",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cycles Last Week",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Alarming",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Power Failure",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Fail",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Asset Name",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Common Name",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Control",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Device Status",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "OpenStatus",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "OOS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Remote",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Auto",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CloseStatus",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Position Feedback",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "Device Control",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "CmdMan",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "ManSP",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdINS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdOOS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdAuto",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Valve 3",
+      "typeId": "Valve",
+      "tagType": "UdtInstance",
+      "tags": [
+        {
+          "name": "Alarming",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Power Failure",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Fail",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Control",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Device Status",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "Auto",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Remote",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Position Feedback",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CloseStatus",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "OOS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "OpenStatus",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "Device Control",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "CmdINS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdAuto",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdOOS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "ManSP",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdMan",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Maintenance",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Cycles Yesterday",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Total Cycles",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cycles Today",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cycles Last Week",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Common Name",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Asset Name",
+              "tagType": "AtomicTag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Valve 4",
+      "typeId": "Valve",
+      "tagType": "UdtInstance",
+      "tags": [
+        {
+          "name": "General",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Common Name",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Asset Name",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Control",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Device Status",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "OOS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "OpenStatus",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Remote",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CloseStatus",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Position Feedback",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Auto",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "Device Control",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "ManSP",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdOOS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdINS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdAuto",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdMan",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Maintenance",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Total Cycles",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cycles Today",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cycles Yesterday",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cycles Last Week",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Alarming",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Fail",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Power Failure",
+              "tagType": "AtomicTag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Valve 5",
+      "typeId": "Valve",
+      "tagType": "UdtInstance",
+      "tags": [
+        {
+          "name": "General",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Asset Name",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Common Name",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Maintenance",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Cycles Last Week",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cycles Yesterday",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Total Cycles",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cycles Today",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Control",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Device Status",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "OpenStatus",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "OOS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CloseStatus",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Auto",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Position Feedback",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Remote",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "Device Control",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "ManSP",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdINS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdAuto",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdOOS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdMan",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Alarming",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Fail",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Power Failure",
+              "tagType": "AtomicTag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Valve 6",
+      "typeId": "Valve",
+      "tagType": "UdtInstance",
+      "tags": [
+        {
+          "name": "Control",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Device Status",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "CloseStatus",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Position Feedback",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Remote",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Auto",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "OOS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "OpenStatus",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "Device Control",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "CmdOOS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdMan",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdINS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdAuto",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "ManSP",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Maintenance",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Cycles Today",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cycles Last Week",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cycles Yesterday",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Total Cycles",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Common Name",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Asset Name",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Alarming",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Power Failure",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Fail",
+              "tagType": "AtomicTag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Valve 7",
+      "typeId": "Valve",
+      "tagType": "UdtInstance",
+      "tags": [
+        {
+          "name": "Alarming",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Power Failure",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Fail",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Control",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Device Status",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "Remote",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Auto",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CloseStatus",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "OOS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Position Feedback",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "OpenStatus",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "Device Control",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "CmdOOS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdINS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdAuto",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdMan",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "ManSP",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Maintenance",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Cycles Yesterday",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cycles Last Week",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Total Cycles",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cycles Today",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Asset Name",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Common Name",
+              "tagType": "AtomicTag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Valve 8",
+      "typeId": "Valve",
+      "tagType": "UdtInstance",
+      "tags": [
+        {
+          "name": "Maintenance",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Cycles Yesterday",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cycles Last Week",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Total Cycles",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cycles Today",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Control",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Device Status",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "OOS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Remote",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Auto",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CloseStatus",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Position Feedback",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "OpenStatus",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "Device Control",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "ManSP",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdMan",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdAuto",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdINS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdOOS",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Alarming",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Power Failure",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Fail",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Common Name",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Asset Name",
+              "tagType": "AtomicTag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Valve 9",
+      "typeId": "Valve",
+      "tagType": "UdtInstance",
+      "tags": [
+        {
+          "name": "Control",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Device Status",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "Auto",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "OOS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "OpenStatus",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Remote",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Position Feedback",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CloseStatus",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "Device Control",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "CmdINS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdMan",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "ManSP",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdAuto",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdOOS",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Alarming",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Power Failure",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Fail",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Asset Name",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Common Name",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Maintenance",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Cycles Last Week",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Total Cycles",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cycles Today",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cycles Yesterday",
+              "tagType": "AtomicTag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Valve 10",
+      "typeId": "Valve",
+      "tagType": "UdtInstance",
+      "tags": [
+        {
+          "name": "Control",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Device Status",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "Position Feedback",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CloseStatus",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "OpenStatus",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Remote",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "OOS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Auto",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "Device Control",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "CmdOOS",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdMan",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "ManSP",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdAuto",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "CmdINS",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "General",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Common Name",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Asset Name",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Maintenance",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Cycles Today",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Total Cycles",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cycles Yesterday",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Cycles Last Week",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Alarming",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Power Failure",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Fail",
+              "tagType": "AtomicTag"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
