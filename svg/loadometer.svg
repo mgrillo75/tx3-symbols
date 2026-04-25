@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="-25 -25 200 200" role="img" aria-label="50 percent loadometer">
+  <defs>
+    <filter id="baseShadow" x="-25" y="-25" width="200" height="200" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="0" stdDeviation="6.7" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+    <filter id="textGlow" x="0" y="25" width="150" height="100" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="0" stdDeviation="3.3" flood-color="#0066ff" flood-opacity="1"/>
+    </filter>
+    <filter id="dotGlow" x="35" y="-40" width="80" height="80" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#0066ff" flood-opacity="1"/>
+    </filter>
+  </defs>
+
+  <g id="loadometer" fill="none">
+    <circle cx="75" cy="75" r="73.5" stroke="#0066ff" stroke-opacity="0.1" stroke-width="3" filter="url(#baseShadow)"/>
+    <path
+      d="M 75 150
+         A 75 75 0 0 1 75 0
+         L 75 7
+         A 68 68 0 0 0 75 143
+         Z"
+      fill="#0066ff"/>
+    <circle cx="75" cy="75" r="73.5" stroke="#0066ff" stroke-opacity="0.1" stroke-width="3"/>
+
+    <text
+      x="75"
+      y="95"
+      text-anchor="middle"
+      font-family="Arial, Helvetica, sans-serif"
+      font-size="60"
+      font-weight="400"
+      letter-spacing="2"
+      fill="#0066ff"
+      filter="url(#textGlow)">50<tspan font-size="28" dx="2">%</tspan></text>
+
+    <circle cx="75" cy="0" r="8" fill="#00aeff" filter="url(#dotGlow)"/>
+  </g>
+</svg>

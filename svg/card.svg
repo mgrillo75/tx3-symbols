@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="380"
+     height="260"
+     viewBox="0 0 380 260"
+     role="img"
+     aria-label="Get In Touch form card">
+  <title>Get In Touch form card</title>
+  <desc>Native SVG conversion of the default html/card.html form card state with no input fields or button.</desc>
+
+  <style>
+    .card-heading {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 19.2px;
+      fill: #64ffda;
+    }
+  </style>
+
+  <rect x="0"
+        y="0"
+        width="380"
+        height="260"
+        rx="22"
+        ry="22"
+        fill="#64ffda"/>
+
+  <rect x="2"
+        y="2"
+        width="376"
+        height="256"
+        rx="20"
+        ry="20"
+        fill="#171717"/>
+
+  <text class="card-heading"
+        x="190"
+        y="58"
+        text-anchor="middle"
+        dominant-baseline="middle">Get In Touch</text>
+</svg>

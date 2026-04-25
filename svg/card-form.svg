@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="380"
+     height="454"
+     viewBox="0 0 380 454"
+     role="img"
+     aria-labelledby="cardFormTitle cardFormDesc">
+  <title id="cardFormTitle">Get In Touch form card</title>
+  <desc id="cardFormDesc">A dark contact form card with four fields and a Send Message button.</desc>
+
+  <defs>
+    <filter id="fieldInsetShadow" x="-10%" y="-10%" width="120%" height="140%" color-interpolation-filters="sRGB">
+      <feOffset dx="2" dy="5" in="SourceAlpha" result="offset"/>
+      <feGaussianBlur in="offset" stdDeviation="5" result="blur"/>
+      <feComposite in="SourceAlpha" in2="blur" operator="out" result="innerCutout"/>
+      <feFlood flood-color="#050505" flood-opacity="1" result="shadowColor"/>
+      <feComposite in="shadowColor" in2="innerCutout" operator="in" result="innerShadow"/>
+      <feComposite in="innerShadow" in2="SourceGraphic" operator="over"/>
+    </filter>
+
+    <style>
+      .card-fill {
+        fill: #64ffda;
+      }
+
+      .form-surface,
+      .form-field {
+        fill: #171717;
+      }
+
+      .form-field {
+        stroke: #050505;
+        stroke-opacity: 0.7;
+        stroke-width: 1;
+      }
+
+      .heading,
+      .button-text {
+        fill: #64ffda;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .heading {
+        font-size: 19.2px;
+        font-weight: 400;
+      }
+
+      .placeholder {
+        fill: #ccd6f6;
+        fill-opacity: 0.78;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+      }
+
+      .button-outline {
+        fill: transparent;
+        stroke: #64ffda;
+        stroke-width: 1;
+      }
+
+      .button-text {
+        font-size: 16px;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+
+  <g id="card-form" aria-label="Contact form">
+    <rect class="card-fill" x="0" y="0" width="380" height="454" rx="22" ry="22"/>
+    <rect class="form-surface" x="0" y="0" width="380" height="454" rx="20" ry="20"/>
+
+    <text class="heading" x="190" y="61" text-anchor="middle">Get In Touch</text>
+
+    <g id="fields">
+      <g id="name-field">
+        <rect class="form-field" x="32" y="110" width="316" height="40" rx="10" ry="10" filter="url(#fieldInsetShadow)"/>
+        <text class="placeholder" x="58" y="135">Name</text>
+      </g>
+
+      <g id="email-field">
+        <rect class="form-field" x="32" y="160" width="316" height="40" rx="10" ry="10" filter="url(#fieldInsetShadow)"/>
+        <text class="placeholder" x="58" y="185">Email</text>
+      </g>
+
+      <g id="subject-field">
+        <rect class="form-field" x="32" y="210" width="316" height="40" rx="10" ry="10" filter="url(#fieldInsetShadow)"/>
+        <text class="placeholder" x="58" y="235">Subject</text>
+      </g>
+
+      <g id="message-field">
+        <rect class="form-field" x="32" y="260" width="316" height="78" rx="10" ry="10" filter="url(#fieldInsetShadow)"/>
+        <text class="placeholder" x="58" y="285">Message</text>
+      </g>
+    </g>
+
+    <g id="send-message-button">
+      <rect class="button-outline" x="32.5" y="348.5" width="315" height="51" rx="10" ry="10"/>
+      <text class="button-text" x="190" y="380" text-anchor="middle">Send Message</text>
+    </g>
+  </g>
+</svg>
